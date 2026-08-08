@@ -1,4 +1,4 @@
-import cover from "../assets/student2.png";
+import cover from "../assets/student.png";
 
 export default function Cover() {
   return (

@@ -75,7 +75,7 @@ export default function Login() {
     <div className="flex min-h-screen w-full">
       {/* Login Section */}
       <div className="w-full lg:w-1/2 min-h-screen border-r border-[#DEDEDF]">
-        <div className="lg:pl-[50px] px-4 pt-10">
+        <div className="lg:px-[50px] px-4 pt-10">
           {/* Logo */}
           <Logo />
 
