@@ -17,7 +17,7 @@ export default function Header({ onMenuClick }: HeaderProps) {
       </div>
       {/* Search */}
       <div className="flex items-center">
-        <div className="relative w-[280px] hidden md:flex">
+        <div className="relative md:w-[280px]">
           <RiSearchLine
             size={18}
             className="absolute left-3 top-1/2 -translate-y-1/2 text-[#667085]"
@@ -26,7 +26,7 @@ export default function Header({ onMenuClick }: HeaderProps) {
           <input
             type="text"
             placeholder="Search"
-            className="w-full h-[36px] rounded-[8px] border border-(--border) bg-white pl-10 pr-4 text-[13px] text-(--color) outline-none placeholder:text-[#98A2B3] focus:border-(--main)"
+            className="w-full h-[36px] rounded-[8px] hidden md:flex border border-(--border) bg-white pl-10 pr-4 text-[13px] text-(--color) outline-none placeholder:text-[#98A2B3] focus:border-(--main)"
           />
         </div>
       </div>
