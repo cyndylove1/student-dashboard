@@ -35,17 +35,18 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
         `}
       >
         {/* Logo + Close Button */}
-        <div className="flex items-center justify-between px-4 pt-6">
-          <Logo />
-
-          {/* Close button - Mobile only */}
-          <button
-            type="button"
-            onClick={onClose}
-            className="flex lg:hidden items-center justify-center text-[#161616]"
-          >
-            <MdClose size={22} />
-          </button>
+        <div className="border-b border-[#DEDEDF]">
+          <div className="flex items-center justify-between px-4 pt-5">
+            <Logo />
+            {/* Close button - Mobile only */}
+            <button
+              type="button"
+              onClick={onClose}
+              className="flex lg:hidden items-center justify-center text-[#161616]"
+            >
+              <MdClose size={22} />
+            </button>
+          </div>
         </div>
 
         {/* Navigation Items */}
@@ -89,7 +90,6 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                               }
                             />
                           </span>
-
                           <h2 className="text-[12px]">{item.Label}</h2>
                         </div>
                       </div>
@@ -100,7 +100,6 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             ))}
           </ul>
         </nav>
-
         {/* Logout */}
         <button
           type="button"
