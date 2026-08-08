@@ -116,10 +116,10 @@ const CustomInput: React.FC<CustomInputProps> = ({
               borderColor: "#d8dadc",
             },
             "&:hover fieldset": {
-              borderColor: disabled ? "#d8dadc" : "#014daf",
+              borderColor: disabled ? "#d8dadc" : "#90579e",
             },
             "&.Mui-focused fieldset": {
-              borderColor: "#014daf",
+              borderColor: "#90579e",
               borderWidth: "2px",
             },
           },
